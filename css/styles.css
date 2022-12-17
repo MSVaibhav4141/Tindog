@@ -194,6 +194,10 @@ p{
     {
         padding: 1% 6% 100%;
     } 
+
+    .navalign{
+        text-align: left;
+    }
     .container-fluid h1{
         font-size: 6rem;
         margin: 0;
