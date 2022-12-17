@@ -190,14 +190,46 @@ p{
 /* responsiveness */
 
 @media (max-width:992px) {
-    
+    #title .container-fluid
+    {
+        padding: 1% 6% 100%;
+    } 
+    .container-fluid h1{
+        font-size: 6rem;
+        margin: 0;
+    }
+
+    .container-fluid button{
+        width: 12rem;
+        height: 4.5rem;
+        padding: 0;
+        font-size: 1.5rem;
+    }
     #title{
         text-align: center;
     }
 
     .title-image{
         transform: rotate(0);
-        position: static;
+        position: absolute;
+        width: 90%;
+        right:4%;
+    }
+
+    #features {
+        padding: 2% 2%;
+    }
+
+    #features .container-fluid{
+        padding: 1%;
+    }
+
+    #features .container-fluid .row .feature-col{
+        font-size: 2rem;
+    }
+
+    #features .container-fluid .row .feature-col p{
+        font-weight: bold;
     }
 }
 
